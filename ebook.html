@@ -9,16 +9,62 @@
     <link rel="stylesheet" href="sytle.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <span class="fw-bold text-secondary">Hustle-pay's</span>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="#topic">About the book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reviews">Reviews</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Get in touch</a>
+              </li>
 
-    <nav class="navbar bg-primary">
-        <div class="container-xl">
-          <a class="navbar-brand" href="#info">
-            <span class="fw-bold text-secondary">Hustle! Pray!</span></a>
+              <li class="nav-item d-md-none">
+                <a class="nav-link" href="#pricing">Pricing</a>
+              </li>
+
+              <li class="nav-item d-none d-md-inline">
+                <a class="btn btn-sm btn-secondary" href="#pricing">Buy now</a>
+              </li>
+
+       
+
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+               <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+              <!-- <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary " type="submit">Search</button>
+            </form>
+          </div>
         </div>
       </nav>
 
-        
-   </nav>
+    </nav>
+
+    
 
     <section ID="intro">
         <div class="container-lg">
@@ -40,8 +86,63 @@
         </div>
 
     </section>
-    
 
+
+    <section id="pricing" class="bg-light mt-5">
+        <div class="container-lg">
+            <div class="text-center">
+                <h2>Pricing Plan</h2>
+                <p class="lead text-muted">Choose price plan that suits you &#x1F609;</p>
+            </div>
+
+            <div class="row my-5 align-items-center justify-content-center g-3">
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-secondary border-2">
+                        <div class="card-body text-center py-4">
+                                <h4 class="card-title fw-bold">Beginners edition</h4>
+                                <p class="card-subtitle lead ">eBook download only</p>
+                                <p class="fw-bold text-primary my-5 display-5">$10.99</p>
+                                <p class="card-text text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-lg btn-outline-primary">Buy now</a>
+                            
+                        </div>
+                    </div>
+                </div> 
+                
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-primary border-2">
+                        <div class="card-body text-center py-4">
+                                <h4 class="card-title fw-bold">Intermediate edition</h4>
+                                <p class="card-subtitle lead ">eBook download only</p>
+                                <p class="fw-bold text-primary my-5 display-5">$20.99</p>
+                                <p class="card-text text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-lg btn-outline-primary">Buy now</a>
+                    
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-8 col-lg-4 col-xl-3">
+                    <div class="card border-success border-2">
+                        <div class="card-body text-center py-4">
+                                <h4 class="card-title">Advance edition</h4>
+                                <p class="card-subtitle lead ">eBook download only</p>
+                                <p class="fw-bold text-primary my-5 display-5">$30.99</p>
+                                <p class="card-text text-muted d-none d-lg-block">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                <a href="#" class="btn btn-lg btn-outline-primary">Buy now</a>
+                    
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+       
+    
+    </section> 
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
