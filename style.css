@@ -6,3 +6,7 @@ section{
     width: 80% !important;
 }
 
+.card1_border_color{
+    border-color: brown;
+}
+

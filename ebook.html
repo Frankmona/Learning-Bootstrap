@@ -78,17 +78,12 @@
                     </h1>
                     <p class="lead text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                     <a href="#pricing" class="btn btn-lg btn-secondary">Buy Now</a>
-                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+
+                    <a class="btn btn-primary" data-bs-toggle="offcanvas" href="#sidebar-label" role="button" aria-controls="sidebar-label">
                       Menu
                     </a>
                     
-                    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                      <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                      </div>
-                     
-                    </div>
+                   
                 </div>
 
                 <div class="col-md-5">
@@ -113,7 +108,7 @@
 
             <div class="row my-5 align-items-center justify-content-center g-3">
                 <div class="col-8 col-lg-4 col-xl-3">
-                    <div class="card border-secondary border-2">
+                    <div class="card card1_border_color border-2">
                         <div class="card-body text-center py-4">
                                 <h4 class="card-title fw-bold">Beginners edition</h4>
                                 <p class="card-subtitle lead ">eBook download only</p>
@@ -418,5 +413,31 @@
 const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
     
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="sidebar-label"    aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="sidebar-label">My other books</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+      <div class="offcanvas-body">
+        <div>
+          Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists, etc.
+        </div>
+
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Choose a book title
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Become a React super hero</a></li>
+            <li><a class="dropdown-item" href="#">crash course on Bootsrap</a></li>
+            <li><a class="dropdown-item" href="#">Become a pro in Vue.js</a></li>
+          </ul>
+        </div>
+    
+  </div>  
+    
+
+</div>
 </body>
 </html>
